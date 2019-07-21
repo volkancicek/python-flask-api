@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER Volkan Cicek "volkancicek@outlook.com"
-ENV hostip=0.0.0.0
+ENV host_ip=0.0.0.0
 RUN apt-get update
 RUN apt-get install -y python
 RUN apt-get install -y python-pip
