@@ -3,11 +3,13 @@
 To run API with Docker run following commands:
 
 `docker build -t radio:latest .`
+
 `docker run -p 80:80 radio:latest`
 
 To run API without docker use following commands:
 
 `pip install -r requirements.txt`
+
 `python app.py`
 
 ## Environment Variable
